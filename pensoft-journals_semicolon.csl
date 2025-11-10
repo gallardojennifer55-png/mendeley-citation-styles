@@ -61,12 +61,7 @@
         <text macro="anon"/>
       </substitute>
     </names>
-  </macro>
-  <macro name="authorcount">
-    <names variable="author">
-      <name form="count"/>
-    </names>
-  </macro>
+</macro>
 <macro name="author-citation">
   <names variable="author">
     <name delimiter="; " delimiter-precedes-last="never" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
@@ -77,6 +72,11 @@
       <text macro="anon"/>
     </substitute>
   </names>
+</macro>
+  <macro name="authorcount">
+    <names variable="author">
+      <name form="count"/>
+    </names>
 </macro>
   <macro name="access">
     <choose>
